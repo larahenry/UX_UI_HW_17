@@ -1,0 +1,58 @@
+<head>
+  <link rel="index.html" href="style.css">
+</head>
+span.a {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px #2B4625;
+    background-color: #DEDAAD;
+  }
+  
+  span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #2B4625;
+    background-color: #DEDAAD;
+  }
+  
+  span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid #2B4625;
+    background-color: #DEDAAD;
+  }
+  img.a {
+    vertical-align: baseline;
+    div {
+        padding-top: 1%;
+        padding-right: 30px;
+        padding-bottom: 50px;
+        padding-left: 80px;
+      }
+  }
+  
+  img.b {
+    vertical-align: text-top;
+  }
+  
+  img.c {
+    vertical-align: text-bottom;
+  }
+  
+  img.d {
+    vertical-align: sub;
+  }
+  
+  img.e {
+    vertical-align: super;
+  }
+  p {
+    text-align: center;
+    color: 2B4625;
+  }
